@@ -79,21 +79,21 @@ span{
 
 span.red{
     transition: all 0.6s ease;
-    border: red solid 1px;
-    background-color: red;
+    border: rgba(255, 0, 0, 0.61) solid 1px;
+    background-color: rgba(255, 0, 0, 0.644);
     color: #000;
 }
 
 span.green{
     transition: all 0.6s ease;
-    border: green solid 1px;
-    background-color: green;
+    border: rgba(0, 128, 0, 0.678) solid 1px;
+    background-color: rgba(0, 128, 0, 0.658);
     color: #000;
 }
 
 span.orange{
     transition: all 0.6s ease;
-    border: orange solid 1px;
-    background-color: orange;
+    border: rgba(255, 166, 0, 0.594) solid 1px;
+    background-color: rgba(255, 166, 0, 0.568);
     color: #000;
 }
