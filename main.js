@@ -22,5 +22,10 @@ Btn.onclick = () => {
         resulte.classList.remove('red')
         resulte.classList.remove('orange')
         resulte.classList.add('green')
+    } else{
+        resulte.textContent = 'error'
+        resulte.classList.add('red')
+        resulte.classList.remove('orange')
+        resulte.classList.remove('green')
     }
 }
