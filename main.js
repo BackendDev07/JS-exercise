@@ -8,6 +8,7 @@ Btn.onclick = () => {
     let b = Number(bInput.value)
 
     let r = (b/a) * 100
+    resulte.textContent = r
 
     if( r < 40 ) {
         resulte.classList.add('red')
